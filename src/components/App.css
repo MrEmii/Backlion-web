@@ -1,0 +1,45 @@
+.App{
+  -webkit-text-size-adjust: none;
+  margin: 0;
+  font-family: open sans,sans-serif;
+  min-width: 320px;
+}
+
+.cc-animate.cc-revoke.cc-bottom {
+  transform: translateY(2em);
+}
+.cc-color-override-1374509602.cc-revoke {
+  color: rgb(255, 255, 255);
+  background-color: rgb(52, 55, 63);
+}
+.cc-revoke.cc-bottom {
+  bottom: 0;
+  left: 3em;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+}
+.cc-animate.cc-revoke {
+  transition: transform 1s ease;
+}
+.cc-bottom {
+  bottom: 1em;
+}
+.cc-btn, .cc-close, .cc-link, .cc-revoke {
+  cursor: pointer;
+}
+.cc-revoke {
+  padding: .5em;
+}
+.cc-revoke, .cc-window {
+  position: fixed;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: Helvetica,Calibri,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  z-index: 9999;
+}

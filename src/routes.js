@@ -1,13 +1,13 @@
 import React from 'react';
-import {Route, Switch} from 'react-router-dom';
+import { Route, Switch} from 'react-router-dom';
 import App from './components/App';
 
-const AppRoutes = () => {
+const AppRoutes = () => 
     <App>
         <Switch>
             <Route exact path="/" />
         </Switch>
-    </App>
-}
+    </App>;
+
 
 export default AppRoutes;
